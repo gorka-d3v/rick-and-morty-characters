@@ -4,9 +4,8 @@ import vue from '@vitejs/plugin-vue';
 
 export default getViteConfig({
 	test: {
+		root: './test/unit',
 		environment: 'happy-dom'
-		/* for example, use global to avoid globals imports (describe, test, expect): */
-		// globals: true,
 	},
 	plugins: [vue()]
 });
