@@ -7,9 +7,16 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "test": "vitest"
   },
   "dependencies": {
-    "astro": "^2.10.9"
+    "@astrojs/vue": "^2.2.1",
+    "astro": "^2.10.9",
+    "sass": "^1.65.1",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "vitest": "^0.34.1"
   }
 }
